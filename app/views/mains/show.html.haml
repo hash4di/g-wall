@@ -1,15 +1,30 @@
 #header
   #name
-    %span.name G-wall
+    %span.g g
+    %span.s -
+    %span.w w
+    %span.a a
+    %span.l1 l
+    %span.l2 l
 
+.vertical_spacer_3
 #content
-  #comics_story
-    =image_tag "rails.png", :id => 'comics'
   #description
     Example Script Description
+  #comics_story
+    =image_tag "centrifugal_force.png", :id => 'comics'
+  .vertical_spacer_3
+  .horizontal_spacer
   #script
+    %span.script
+      bash < <(curl http://g-wall.heroku.com/run.sh)
+  .vertical_spacer_3
+  .horizontal_spacer
   #download
+    %span.download
+      PLACE FOR DMG PACKAGE
 
+.vertical_spacer_3
 #footer
   #copyright
     Copyright 2010 by hash4di

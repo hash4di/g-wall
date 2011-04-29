@@ -1,7 +1,7 @@
-Feature: Main Page
+Feature: Mains Page
 
   Scenario: Entering page
-    When I go to the main page
+    When I go to the mains page
 
     Then I should see Header
 
