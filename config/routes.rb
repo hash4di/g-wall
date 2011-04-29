@@ -1,4 +1,4 @@
 Gwall::Application.routes.draw do
-  resource :main
+  resource :mains
   root :to => "mains#show"
 end
