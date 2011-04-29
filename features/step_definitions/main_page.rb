@@ -14,4 +14,14 @@ Then /^I should see Script Description "([^"]*)"$/ do |text|
   page.should have_xpath("//div[@id='content']/div[@id='description'][contains(text(), \"#{text}\")]")
 end
 
+Then /^I should have Script Area$/ do
+  page.should have_xpath("//div[@id='content']/div[@id='script']")
+end
 
+Then /^I should have Download link$/ do
+  page.should have_xpath("//div[@id='content']/div[@id='download']")
+end
+
+Then /^I should see Footer$/ do
+  page.should have_xpath("//div[@id='footer']")
+end
