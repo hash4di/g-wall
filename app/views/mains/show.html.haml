@@ -1,23 +1,62 @@
 #header
   #name
-    %span.g g
-    %span.s -
-    %span.w w
-    %span.a a
-    %span.l1 l
-    %span.l2 l
+    %span#green g
+    %span#red -
+    %span#blue w
+    %span#yellow a
+    %span#purple l
+    %span#pink l
 
 .vertical_spacer_3
 #content
   #description
-    Example Script Description
+    %span#green.big G
+    %span#red.big -
+    %span#blue.big W
+    %span#yellow.big A
+    %span#purple.big L
+    %span#pink.big L
+    %span#yellow.medium is
+    %span#blue.medium a
+    %span.big script
+    %span#red.medium that
+    %span#yellow.medium brings
+    %span#pink.medium a
+    %span#blue.big little
+    %span#green.big humor
+    %span#purple.medium to
+    %span#blue.medium the
+    %span#pink.big offices
+    %span#blue.medium of
+    %span.big developer.
+    %span#yellow.big Changes
+    %span#pink.small the
+    %span#green.medium wallpaper
+    %span#blue.medium on
+    %span#red.medium users'
+    %span#pink.medium computers
+    %span.big Mac.
+
   #comics_story
     =image_tag "centrifugal_force.png", :id => 'comics'
   .vertical_spacer_3
   .horizontal_spacer
+  #script_instruction
+    %span#blue Copy
+    and
+    %span#pink paste
+    in
+    %span#red Terminal
+    on Mac OS
+    %span#green computers:
+    .vertical_spacer_1
+  .horizontal_spacer_2
   #script
+    .vertical_spacer_3
     %span.script
+      %span#green $
       bash < <(curl http://g-wall.heroku.com/run.sh)
+    .vertical_spacer_3
   .vertical_spacer_3
   .horizontal_spacer
   #download

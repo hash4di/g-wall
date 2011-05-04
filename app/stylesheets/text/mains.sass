@@ -1,22 +1,33 @@
 body
+  :font-family 'Swanky and Moo Moo', arial, serif
+  #blue
+    :color #007FFF
+  #yellow
+    :color #FFFF00
+  #purple
+    :color #8A2BE2
+  #red
+    :color #EE0000
+  #pinkThen /^I should see Script Description "([^"]*)"$/ do |text|
+  page.should have_xpath("//div[@id='content']/div[@id='description'][contains(text(), \"#{text}\")]")
+end
+    :color #FF1493
+  #green
+    :color #7FFF00
 
 #header
-  :font-size 24px
+  :font-family 'Cabin Sketch', arial, serif
+  :font-size 150px
   :text-align center
-  .g
-    :color #7FFF00
-  .s
-    :color #EE0000
-  .w
-    :color #007FFF
-  .a
-    :color #FFFF00
-  .l1
-    :color #8A2BE2
-  .l2
-    :color #FF1493
 
 #description
+  :line-height 35px
+  .big
+    :font-size 80px
+  .medium
+    :font-size 40px
+  .small
+    :font-size 20px
 
 #comic_story
   :display block
@@ -25,10 +36,25 @@ body
     :margin-left auto
     :margin-right auto
 
+#script_instruction
+  :font-size 40px
+  :text-align left
+
 #script
-  :border solid 1px red
+  :background #181818
   :text-align center
+  :font-family Monaco
+  :font-size 20px
+
 
 #download
-  :border solid 1px red
   :text-align center
+  :font-size 40px
+
+#footer
+  :font-family monaco
+  :color #007FFF
+  #copyright
+    :text-align left
+  #design_coding
+    :text-align right
