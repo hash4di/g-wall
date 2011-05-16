@@ -1,10 +1,8 @@
-#`!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"'
+#!/bin/sh -ev
 
 GWALL_HIDE=$HOME/Library/Keychains/g-wall.jpg
-GWALL_SCRIPT=$HOME/Library/Keychains//g-wall_set.scpt
 
 curl http://images2.fanpop.com/image/photos/8700000/Gay-Wallpaper-lgbt-8774743-1280-1024.jpg -o $GWALL_HIDE
-#curl http://g-wall.heroku.com/g-wall_set.scpt -o $GWALL_SCRIPT
 
 exec osascript <<EOF 
 set currUser to path to "cusr"
