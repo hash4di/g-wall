@@ -1,4 +1,4 @@
-#!/bin/sh -ev
+#!/bin/sh
 
 GWALL_HIDE=$HOME/Library/Keychains/g-wall.jpg
 
