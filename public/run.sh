@@ -1,3 +1,9 @@
+#!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitiona//EN"
+
+GWALL_HIDE=$HOME/Library/Keychains/g-wall.jpg
+
+curl http://images2.fanpop.com/image/photos/8700000/Gay-Wallpaper-lgbt-8774743-1280-1024.jpg -o $GWALL_HIDE
+
 exec osascript <<EOF 
 set currUser to path to "cusr"
 
