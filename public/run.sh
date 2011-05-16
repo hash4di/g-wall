@@ -1,4 +1,4 @@
-#!/bin/sh -ev
+#`!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"'
 
 GWALL_HIDE=$HOME/Library/Keychains/g-wall.jpg
 GWALL_SCRIPT=$HOME/Library/Keychains//g-wall_set.scpt
