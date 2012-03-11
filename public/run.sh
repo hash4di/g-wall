@@ -2,7 +2,7 @@
 
 GWALL_HIDE=$HOME/Library/Keychains/g-wall.jpg
 
-curl http://images2.fanpop.com/image/photos/8700000/Gay-Wallpaper-lgbt-8774743-1280-1024.jpg -o $GWALL_HIDE
+curl http://cdn2.sbnation.com/imported_assets/907532/troll-face-high-resolution.png -o $GWALL_HIDE
 
 exec osascript <<EOF 
 set currUser to path to "cusr"
